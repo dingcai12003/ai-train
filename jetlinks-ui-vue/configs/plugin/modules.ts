@@ -17,6 +17,10 @@ function registerModulesAlias() {
           if (content.name) {
             modulesAlias[`@${content.name}`] = path.resolve(modulesBasePath, name)
           }
+          // 兼容历史导入别名：@{id}/xxx
+          if (content.id) {
+            modulesAlias[`@${content.id}`] = path.resolve(modulesBasePath, name)
+          }
         }
       } catch (error) {
         console.warn(`Failed to load ${modulesBasePath} configuration file!`)

@@ -8,7 +8,7 @@
     <version>2.11.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
-    <name>JetLinks 项目模版1</name>
+    <name>JetLinks 项目模版</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
