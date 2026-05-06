@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WorkspaceSettings">
+    <project name="JetLinks Community UI" path="$PROJECT_DIR$/jetlinks-ui-vue" />
+    <project name="JetLinks 项目模版" path="$PROJECT_DIR$/jetlinks-project-template">
+      <vcs id="Git" remoteUrl="https://github.com/jetlinks-v2/jetlinks-project-template.git" />
+    </project>
+    <option name="workspace" value="true" />
+  </component>
+</project>
