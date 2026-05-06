@@ -369,12 +369,6 @@
 
         <dependency>
             <groupId>${project.groupId}</groupId>
-            <artifactId>device-cockpit</artifactId>
-            <version>${project.version}</version>
-        </dependency>
-
-        <dependency>
-            <groupId>${project.groupId}</groupId>
             <artifactId>dashboard-component</artifactId>
             <version>${project.version}</version>
         </dependency>

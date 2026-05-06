@@ -235,12 +235,6 @@
 
         <dependency>
             <groupId>org.jetlinks.pro</groupId>
-            <artifactId>device-cockpit</artifactId>
-            <version>${project.version}</version>
-        </dependency>
-
-        <dependency>
-            <groupId>org.jetlinks.pro</groupId>
             <artifactId>device-manager</artifactId>
             <version>${jetlinks.pro.version}</version>
         </dependency>

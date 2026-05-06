@@ -8,7 +8,7 @@
     <version>2.11.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
-    <name>JetLinks 项目模版</name>
+    <name>JetLinks 项目模版1</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -148,7 +148,6 @@
                 <activeByDefault>true</activeByDefault>
             </activation>
             <modules>
-                <module>modules/device-cockpit</module>
                 <module>bootstrap</module>
             </modules>
         </profile>
@@ -172,7 +171,6 @@
         <profile>
             <id>microservice</id>
             <modules>
-                <module>modules/device-cockpit</module>
                 <module>microservices/api-gateway-service</module>
                 <module>microservices/authentication-service</module>
                 <module>microservices/file-service</module>
