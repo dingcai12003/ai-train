@@ -1,0 +1,47 @@
+[
+    {
+        "path": "/system/config/front",
+        "authorize": false,
+        "order": -1
+    },
+    {
+        "path": "/system/config/**",
+        "authorize": true,
+        "order": -1
+    },
+    {
+        "path": "/messaging/**",
+        "authorize": true,
+        "order": 100
+    },
+    {
+        "path": "/v3/api-docs/authentication-service",
+        "authorize": true,
+        "order": -1
+    },
+    {
+        "path": "/command-supports/**",
+        "authorize": false,
+        "order": -1
+    },
+    {
+        "path": "/logger/**",
+        "authorize": true,
+        "order": -1
+    },
+    {
+        "path": "/v3/api-docs/swagger-config",
+        "authorize": true,
+        "order": -1
+    },
+    {
+        "path": "/doc.html",
+        "authorize": false,
+        "order": -1
+    },
+    {
+        "path": "/webjars/**",
+        "authorize": false,
+        "order": -1
+    }
+]
